@@ -1,0 +1,690 @@
+.App {
+  overflow: scroll;
+  height: 100dvh;
+  margin-top: 0px;
+  align-items: center;
+}
+
+/* Hero section start here */
+
+.hero-section {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.left-side {
+  width: 50%;
+  height: 100%;
+  margin-top: 125px;
+  text-align: right;
+  font-size: 7vw;
+
+}
+
+
+.hello {
+ 
+  color: white;
+  font-weight: bold;
+  margin-right: 43px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.i {
+  
+  color: red;
+  font-weight: bold;
+  margin-right: 111px;
+  margin-top: -20px;
+}
+
+.farhad {
+  
+  color: red;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+
+.btn {
+  text-align: center;
+  margin-left: 306px;
+  
+}
+
+.cv-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin-right: 32px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.linkedin-btn {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+
+.right-side {
+  width: 50%;
+  height: 100%;
+  padding-top: 30px;
+
+}
+
+.hero-img {
+  width: 551px;
+  height: 511px;
+  object-fit: cover;
+  margin-top: 33px;
+}
+
+
+/* end here */
+
+
+
+/* about section start here */
+
+.about-section {
+  background-color: #343434;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+
+}
+
+.about-body {
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.about-heading {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.about-text {
+  width: 40%;
+  text-align: center;
+}
+
+/* End here */
+
+
+
+/* skills section start here */
+
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  background-color: black;
+  padding: 80px;
+}
+
+.skill-heading {
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 18px;
+}
+
+.skill-txt-html {
+  color: white;
+  font-size: 25px;
+}
+
+.skill-txt-css {
+  color: white;
+  font-size: 25px;
+  margin-left: 12px;
+}
+
+.skill-txt-js {
+  color: white;
+  font-size: 25px;
+  margin-left: -153px;
+}
+
+.skill-txt-react {
+  color: white;
+  font-size: 25px;
+  margin-left: -64px;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+
+
+
+.t9 {
+  width: 230px;
+  height: 14px;
+  background-color: #264de4;
+}
+
+
+.skill-t-js {
+  width: 160px;
+  height: 14px;
+  background-color: #F0DB4F;
+}
+
+
+.skill-t-react {
+  width: 180px;
+  height: 14px;
+  background-color: #8ED1FC;
+}
+
+/* End here */
+
+
+
+
+
+/* my works section start here */
+
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 80px;
+  flex-direction: row;
+}
+
+.project-one {
+  width: 41%;
+  background-color: white;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+
+.project-two {
+  width: 41%;
+  background-color: white;
+  margin-left: 66px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.project-heading {
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.project-img {
+  width: 551px;
+  height: 283px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+}
+
+.project-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.project-txt {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.gitlink-txt {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.project-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin-right: 32px;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+/* End here */
+
+
+
+/* contact from start here */
+
+
+.contact-form {
+
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;;
+  color: white;
+
+}
+
+.contact-form h3 {
+  font-size: 35px;
+  
+}
+
+
+.form-group {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-control {
+  padding: 5px 0;
+  width: 20vw;
+  border-radius: 5px;
+}
+
+
+
+.formCheck {
+  margin-left: 6px;
+  margin-top: 8px;
+}
+
+.btnContact {
+  width: 8vw;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+
+/* End here */
+
+
+
+@media (max-width:480px) {
+
+  .hero-section {
+    background-color: black;
+    width: 100%;
+    height: 48%;
+    display: flex;
+   }
+
+
+
+.left-side {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.hello {
+  font-size: 18vw;
+  color: white;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+}
+
+.i {
+  font-size: 18vw;
+  color: red;
+  font-weight: bold;
+  margin-right: 47px;
+  margin-top: 0px;
+}
+
+.farhad {
+  font-size: 18vw;
+  color: red;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-right: -40px;
+}
+
+
+.btn {
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.cv-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin-right: 0px;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.linkedin-btn {
+  padding: 7px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+
+
+.right-side {
+  display: none;
+}
+
+
+/* about section start here */
+
+.about-section {
+  background-color: #343434;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+}
+
+.about-body {
+  font-size: 7vw;
+  margin-top: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.about-heading {
+  font-size: 9vw;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+
+.about-text {
+  width: 100%;
+  text-align: center;
+}
+
+/* End here */
+
+
+
+/* skills section start here */
+
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  padding: 55px 0px 55px 20px;
+  }
+
+.skill-heading {
+  font-size: 9vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.skill-txt-html {
+  color: white;
+  font-size: 5vw;
+}
+
+.skill-txt-css {
+  color: white;
+  font-size: 5vw;
+  margin-left: 10px;
+}
+
+.skill-txt-js {
+  color: white;
+  font-size: 5vw;
+  margin-left: -119px;
+}
+
+.skill-txt-react {
+  color: white;
+  font-size: 5vw;
+  margin-left: -64px;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+
+
+
+.t9 {
+  width: 200px;
+  height: 12px;
+  background-color: #264de4;
+}
+
+
+.skill-t-js {
+  width: 140px;
+  height: 12px;
+  background-color: #F0DB4F;
+}
+
+
+.skill-t-react {
+  width: 150px;
+  height: 12px;
+  background-color: #8ED1FC;
+}
+
+/* End here */
+
+
+/* my works section start here */
+
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+ 
+}
+
+.project-one {
+  width: 100%;
+  background-color: white;
+  padding: 40px 0;
+}
+
+
+.project-two {
+  width: 100%;
+  background-color: white;
+  margin-left: 0px;
+  margin-top: 50px;
+  padding: 40px 0;
+}
+
+.project-heading {
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 45px;
+}
+
+project-img {
+  width: 482px;
+  height: 248px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+}
+
+.project-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.project-txt {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.gitlink-txt {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.project-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  margin-right: 32px;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+/* End here */
+
+
+/* contact from start here */
+
+
+.contact-form {
+
+  padding: 30px 0px 60px 0px;
+  display: flex;
+  justify-content: center;
+  
+  background-color: #212529;;
+  color: white;
+
+}
+
+.contact-form h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.form-group {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-control {
+  padding: 5px 0;
+  width: 60vw;
+  border-radius: 5px;
+}
+
+
+
+.formCheck {
+  display: none;
+}
+
+.btnContact {
+  width: 20vw;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+
+/* End here */
+
+
+
+}
